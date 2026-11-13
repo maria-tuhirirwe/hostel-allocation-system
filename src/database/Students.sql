@@ -1,0 +1,7 @@
+CREATE TABLE Students (
+    StudentID INT AUTO_INCREMENT PRIMARY KEY,
+    RegistrationNumber VARCHAR(30) NOT NULL UNIQUE,
+    FullName VARCHAR(100) NOT NULL,
+    Programme VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE
+);
